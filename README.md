@@ -57,14 +57,55 @@ import 'package:image_viewer_page/image_viewer_page.dart';
 Create a full-screen image viewer with optional animated transition:
 
 ```dart
-ImageViewerPage(
-  imageUrls: [
-    'https://example.com/image1.jpg',
-    'https://example.com/image2.jpg',
-  ],
-  initialIndex: 0,
-  transitionStyle: ImageTransitionStyle.flip,
+ // Use custom Navigator of ImageViewerPage
+ ImageViewerNavigator.push(
+    context,
+    imageUrls: [
+        'https://example.com/image1.jpg',
+        'https://example.com/image2.jpg',
+      ],
+    initialIndex: 0, // index image when user tap
+    transitionStyle: ImageTransitionStyle.flip,
+  );
+// Handle with flutter navigator
+Navigator.of(context).push(
+  PageRouteBuilder(
+    opaque: false,
+    barrierColor: Colors.black.withOpacity(0),
+    pageBuilder: (_, __, ___) => ImageViewerPage(
+      imageUrls: [
+        'https://example.com/image1.jpg',
+        'https://example.com/image2.jpg',
+      ],
+      initialIndex: 0, // index image when user tap
+      transitionStyle: ImageTransitionStyle.flip,
+    ),
+    transitionsBuilder:
+        (context, animation, secondaryAnimation, child) {
+      return FadeTransition(
+        opacity: animation,
+        child: child,
+      );
+    },
+  ),
 );
+// For Getx navigator
+Get.to(
+  () => ImageViewerPage(
+    imageUrls: [
+        'https://example.com/image1.jpg',
+        'https://example.com/image2.jpg',
+      ],
+    initialIndex: 0, // index image when user tap
+    transitionStyle: ImageTransitionStyle.flip,
+  ),
+  fullscreenDialog: true,
+  opaque: false,
+  transition: Transition.noTransition,
+  popGesture: true,
+  curve: Curves.easeInOut,
+);
+
 ```
 
 ## Features

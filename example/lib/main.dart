@@ -54,26 +54,33 @@ class ImageGridPage extends StatelessWidget {
         itemBuilder: (context, index) {
           return GestureDetector(
             onTap: () {
-              Navigator.of(context).push(
-                PageRouteBuilder(
-                  opaque: false,
-                  barrierColor: Colors.black.withOpacity(0),
-                  pageBuilder: (_, __, ___) => ImageViewerPage(
-                    imageUrls: imageUrls,
-                    initialIndex: index,
-                    transitionStyle:
-                        transitionStyles[index % transitionStyles.length],
-                  ),
-                  transitionsBuilder:
-                      (context, animation, secondaryAnimation, child) {
-                    return FadeTransition(
-                      opacity: animation,
-                      child: child,
-                    );
-                  },
-                ),
+              ImageViewerNavigator.push(
+                context,
+                imageUrls: imageUrls,
+                initialIndex: index,
+                transitionStyle:
+                    transitionStyles[index % transitionStyles.length],
               );
-              // For Getx
+              // Navigator.of(context).push(
+              //   PageRouteBuilder(
+              //     opaque: false,
+              //     barrierColor: Colors.black.withOpacity(0),
+              //     pageBuilder: (_, __, ___) => ImageViewerPage(
+              //       imageUrls: imageUrls,
+              //       initialIndex: index,
+              //       transitionStyle:
+              //           transitionStyles[index % transitionStyles.length],
+              //     ),
+              //     transitionsBuilder:
+              //         (context, animation, secondaryAnimation, child) {
+              //       return FadeTransition(
+              //         opacity: animation,
+              //         child: child,
+              //       );
+              //     },
+              //   ),
+              // );
+              /// For Getx navigator
               // Get.to(
               //   () => ImageViewerPage(
               //     imageUrls: imageUrls,

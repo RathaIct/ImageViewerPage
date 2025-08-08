@@ -9,3 +9,4 @@
 library image_viewer_page;
 
 export 'src/image_viewer_page.dart';
+export 'src/image_viewer_navigator.dart';
