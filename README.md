@@ -6,7 +6,7 @@
 
 <hr />
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RathaIct/ImageViewerPage/main/thumbnail.gif"/>
+  <img src="https://raw.githubusercontent.com/RathaIct/ImageViewerPage/main/images/thumbnail.gif"/>
 </p>
 <p align="center">
   <a href="https://flutter.dev">
@@ -70,8 +70,11 @@ ImageViewerPage(
 ## Features
 
 ✅ Pinch to zoom  
+ <img src="https://raw.githubusercontent.com/RathaIct/ImageViewerPage/main/images/pinch_zoom.gif"/>
 ✅ Double tap to zoom  
+ <img src="https://raw.githubusercontent.com/RathaIct/ImageViewerPage/main/images/touble_tap_zoom.gif"/>
 ✅ Swipe to dismiss  
+ <img src="https://raw.githubusercontent.com/RathaIct/ImageViewerPage/main/images/dismiss.gif"/>
 ✅ Transition styles:
 
 - `slide`
@@ -80,6 +83,7 @@ ImageViewerPage(
 - `flip`
 - `rotate`
 - `cube`
+  <img src="https://raw.githubusercontent.com/RathaIct/ImageViewerPage/main/images/transition.gif"/>
 
 ✅ Page indicator overlay  
 ✅ Hero animation support
@@ -92,9 +96,10 @@ To see a full working example with grid thumbnails and different transitions:
 cd example && flutter run
 ```
 
+<img src="https://raw.githubusercontent.com/RathaIct/ImageViewerPage/main/cambodia.webp" width="230" />
 ## Creator
 
-<img src="https://raw.githubusercontent.com/RathaIct/AnimateText/main/ratha.jpeg" width="150" />
+<img src="https://raw.githubusercontent.com/RathaIct/ImageViewerPage/main/ratha.jpeg" width="150" />
 
 <hr />
 

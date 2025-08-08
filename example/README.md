@@ -1,4 +1,4 @@
-# animated_text_example
+# image_viewer_page_example
 
 Demonstrates how to use the animated_text plugin.
 

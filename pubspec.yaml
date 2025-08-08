@@ -6,9 +6,9 @@ repository: https://github.com/RathaIct/ImageViewerPage
 issue_tracker: https://github.com/RathaIct/ImageViewerPage/issues
 maintainer: Hin Ratha (@RathaIct)
 topics:
-  - animate-text
-  - animation-text
-  - animated
+  - image-view
+  - image-gallery
+
 screenshots:
   - description: "Image view sample"
     path: thumbnail.gif
