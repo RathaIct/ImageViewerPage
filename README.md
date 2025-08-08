@@ -29,9 +29,7 @@
   </a>
 </p>
 
-## Features
-
-<h2>🧩 Features</h2>
+## 🧩Features
 
 <table>
   <thead>
