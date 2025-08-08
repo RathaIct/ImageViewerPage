@@ -113,9 +113,6 @@ ImageViewerPage(
   </tbody>
 </table>
 
-✅ Page indicator overlay  
-✅ Hero animation support
-
 ## Example
 
 To see a full working example with grid thumbnails and different transitions:
