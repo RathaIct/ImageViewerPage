@@ -1,6 +1,6 @@
 name: image_viewer_page
 description: A customizable fullscreen image viewer with pinch-to-zoom, swipe-to-dismiss, and smooth animated transitions (flip, fade, cube, etc).
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/RathaIct/ImageViewerPage
 repository: https://github.com/RathaIct/ImageViewerPage
 issue_tracker: https://github.com/RathaIct/ImageViewerPage/issues
@@ -10,8 +10,8 @@ topics:
   - image-gallery
 
 screenshots:
-  - description: "TransformText thumbnail "
-    path: thumbnail.jpg
+  - description: "Thumbnail image sample how to back"
+    path: thumbnail.png
   - description: "Image view sample"
     path: thumbnail.gif
 
