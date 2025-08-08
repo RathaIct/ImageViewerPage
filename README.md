@@ -69,21 +69,49 @@ ImageViewerPage(
 
 ## Features
 
-✅ Pinch to zoom  
- <img src="https://raw.githubusercontent.com/RathaIct/ImageViewerPage/main/images/pinch_zoom.gif"/>
-✅ Double tap to zoom  
- <img src="https://raw.githubusercontent.com/RathaIct/ImageViewerPage/main/images/touble_tap_zoom.gif"/>
-✅ Swipe to dismiss  
- <img src="https://raw.githubusercontent.com/RathaIct/ImageViewerPage/main/images/dismiss.gif"/>
-✅ Transition styles:
+<h2>🧩 Features</h2>
 
-- `slide`
-- `fade`
-- `scale`
-- `flip`
-- `rotate`
-- `cube`
-  <img src="https://raw.githubusercontent.com/RathaIct/ImageViewerPage/main/images/transition.gif"/>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left;">✅ Feature</th>
+      <th style="text-align:left;">Description</th>
+      <th style="text-align:left;">Preview</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Pinch to Zoom</strong></td>
+      <td>Use two fingers to zoom in and out</td>
+      <td><img src="https://raw.githubusercontent.com/RathaIct/ImageViewerPage/main/images/pinch_zoom.gif" width="200"/></td>
+    </tr>
+    <tr>
+      <td><strong>Double Tap to Zoom</strong></td>
+      <td>Quickly zoom in or out by double tapping</td>
+      <td><img src="https://raw.githubusercontent.com/RathaIct/ImageViewerPage/main/images/touble_tap_zoom.gif" width="200"/></td>
+    </tr>
+    <tr>
+      <td><strong>Swipe to Dismiss</strong></td>
+      <td>Swipe up or down to dismiss the viewer</td>
+      <td><img src="https://raw.githubusercontent.com/RathaIct/ImageViewerPage/main/images/dismiss.gif" width="200"/></td>
+    </tr>
+    <tr>
+      <td><strong>Transition Styles</strong></td>
+      <td>Choose from: <code>slide</code>, <code>fade</code>, <code>scale</code>, <code>flip</code>, <code>rotate</code>, <code>cube</code></td>
+      <td><img src="https://raw.githubusercontent.com/RathaIct/ImageViewerPage/main/images/transition.gif" width="200"/></td>
+    </tr>
+    <tr>
+      <td><strong>Page Indicator Overlay</strong></td>
+      <td>Shows current image index at the top right</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td><strong>Hero Animation Support</strong></td>
+      <td>Smooth shared-element animation from thumbnail to fullscreen</td>
+      <td>—</td>
+    </tr>
+  </tbody>
+</table>
 
 ✅ Page indicator overlay  
 ✅ Hero animation support
@@ -96,7 +124,9 @@ To see a full working example with grid thumbnails and different transitions:
 cd example && flutter run
 ```
 
+<br />
 <img src="https://raw.githubusercontent.com/RathaIct/ImageViewerPage/main/cambodia.webp" width="230" />
+
 ## Creator
 
 <img src="https://raw.githubusercontent.com/RathaIct/ImageViewerPage/main/ratha.jpeg" width="150" />
