@@ -1,3 +1,7 @@
+## [1.0.3]
+
+- Add new thumbnail
+
 ## [1.0.2]
 
 - Fix bug

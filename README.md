@@ -6,7 +6,7 @@
 
 <hr />
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RathaIct/ImageViewerPage/main/images/thumbnail.gif"/>
+  <img src="https://raw.githubusercontent.com/RathaIct/ImageViewerPage/main/images/home.gif"/>
 </p>
 <p align="center">
   <a href="https://flutter.dev">
@@ -81,7 +81,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  image_viewer_page: ^1.0.2
+  image_viewer_page: ^1.0.3
 ```
 
 ### 2. Install it
