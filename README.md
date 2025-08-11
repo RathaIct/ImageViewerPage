@@ -6,7 +6,7 @@
 
 <hr />
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RathaIct/ImageViewerPage/main/images/home.gif"/>
+  <img src="https://raw.githubusercontent.com/RathaIct/ImageViewerPage/main/images/home.gif" width="300" />
 </p>
 <p align="center">
   <a href="https://flutter.dev">
